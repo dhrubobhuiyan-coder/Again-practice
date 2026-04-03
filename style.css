@@ -4,6 +4,12 @@ body{
 h1{
     font-size: 50px; 
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .name{
     color: orange;
 }
@@ -20,5 +26,15 @@ h1{
    background-repeat: no-repeat;
 }
 section{
-    height: 1000px;
+    height: 500px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    color: aqua;
+    font-weight: 700;
 }
